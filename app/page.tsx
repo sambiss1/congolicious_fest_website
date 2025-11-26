@@ -26,10 +26,10 @@ export default function Home() {
 
           {/* Event Details */}
           <div className="text-center text-white">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight mb-2">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight ">
               20-21 & 27-28
             </h1>
-            <h2 className="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight mb-4">
+            <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold tracking-tight ">
               DÉCEMBRE 2025
             </h2>
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold tracking-wide">
@@ -39,9 +39,9 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <div className="w-full max-w-4xl text-center pb-8">
-          <div className="flex items-start justify-center gap-4 sm:gap-6 text-white text-xs sm:text-sm">
-            <div className="w-[30%] flex items-start justify-center">
+        <div className="w-full max-w-4xl text-center pb-8 mt-4 md:mt-8">
+          <div className="flex items-center  justify-center gap-4 sm:gap-6 text-white text-xs sm:text-sm">
+            <div className="w-[20%] flex items-start justify-center">
               <Image
                 src="/assets/BASELINE-CONGOLICIOUS-FEST-WHITE-cropped.png"
                 alt="Congolicious Fest Baseline"
@@ -52,7 +52,9 @@ export default function Home() {
             </div>
             <div className="w-[60%] text-left">
               <p className="leading-relaxed">
-                Le Congolicious Fest est le tout premier festival Food & Music de la RDC, célébrant la richesse de notre diversité musicale et culinaire. Cet événement de quatre jours rassemble mélomanes, gourmands et philanthropes autour d&apos;une RDC solidaire et pacifique. Les bénéfices sont entièrement reversés à la Congolicious Foundation pour soutenir la lutte contre la faim et l&apos;assistance aux communautés vulnérables.
+                Le Congolicious Fest est le tout premier festival Food & Music de la RDC, célébrant la richesse de notre diversité musicale et culinaire. Cet événement de quatre jours rassemble mélomanes, gourmands et philanthropes autour d&apos;une RDC solidaire et pacifique.
+                
+                {/* Les bénéfices sont entièrement reversés à la Congolicious Foundation pour soutenir la lutte contre la faim et l&apos;assistance aux communautés vulnérables. */}
               </p>
             </div>
           </div>
