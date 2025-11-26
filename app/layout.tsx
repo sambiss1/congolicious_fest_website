@@ -9,7 +9,7 @@ const kanit = Kanit({
 });
 
 export const metadata: Metadata = {
-  title: "Congolicious Fest 2025",
+  title: "Congolicious Fest",
   description: "Festival de la culture congolaise - 20-21 & 27-28 Décembre 2025 - Triomphal Park",
 };
 
